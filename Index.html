@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -16,12 +17,19 @@
         </div>
         <div class="buttons">
             <div class="function">
-                <span class="button">AC</span>
-                <span class="button">+/-</span>
-                <span class="button">%</span>
-                <span class="button"></span>
+                <span class="button" data-value="">AC</span>
+                <span class="button" data-value="">+/-</span>
+                <span class="button" data-value="">%</span>
+                <span class="button" data-value="">2nd</span>
+                <span class="button" data-value="">=></span>
             </div>
             <div class="pavé_Numérique">
+                <div class="sign">
+                    <span class="button" data-value="">COS</span>
+                    <span class="button" data-value="">SIN</span>
+                    <span class="button" data-value="">TAN</span>
+                    <span class="button" data-value="">x!</span>
+                </div>
                 <div class="number">
                     <span class="button" data-value="">7</span>
                     <span class="button" data-value="">8</span>
@@ -29,7 +37,7 @@
                     <span class="button" data-value="">4</span>
                     <span class="button" data-value="">5</span>
                     <span class="button" data-value="">6</span>
-                    <span class="button" data-value="">1</span>
+                    <span class="button" data-value="" onClick="value(1);">1</span>
                     <span class="button" data-value="">2</span>
                     <span class="button" data-value="">3</span>
                     <span class="button" data-value="">0</span>
